@@ -1,0 +1,178 @@
+/* ===========================
+   RESET & BASE
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  border: 1px solid white;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;
+  align-items: flex-start;*/
+  border: 1px solid black;
+}
+
+.header-title {
+  border: 1px solid black;
+}
+
+.header-subtitle {
+  border: 1px solid black;
+}
+
+.bio {
+  border: 1px solid black;
+}
+
+/* ===========================
+   NAV
+=========================== */
+
+.nav {
+  border: 1px solid black;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 6px;
+  /*border-bottom: 5px solid transparent;*/
+  background-image: linear-gradient(to right, #4c1a97, #6d6dff);
+  background-size: 100% 5px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.profile-picture {
+  width: 387px;
+  height: 500px;
+  flex-shrink: 0; /*evita que flex reduzca la imagen */
+  object-fit: cover;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ===========================
+   SKILLS
+=========================== */
+
+.skills {
+  border: 1px solid black;
+}
+
+.tools-icons {
+  border: 1px solid black;
+}
+
+.tools-icons img {
+  border: 1px solid black;
+}
+
+/* ===========================
+   PROJECTS
+=========================== */
+
+.projects {
+  border: 1px solid black;
+}
+
+.project {
+  border: 1px solid black;
+}
+
+.project__card-header {
+  border: 1px solid black;
+}
+
+.project__card-header__icons {
+  border: 1px solid black;
+}
+
+.project__card-header__icons img {
+  border: 1px solid black;
+}
+
+.project__card-desc {
+  border: 1px solid black;
+}
+
+.card-title {
+  border: 1px solid black;
+}
+
+.card-text {
+  border: 1px solid black;
+}
+
+/* ===========================
+   PROJECT LINKS
+=========================== */
+
+.project__card-desc__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+  border: 1px solid black;
+}
+
+.project__card-desc__links li {
+  border: 1px solid black;
+}
+
+.project__card-desc__links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.project__card-desc__links img {
+  border: 1px solid black;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer {
+  border: 1px solid black;
+}
+
+.contact {
+  border: 1px solid black;
+}
+
+.footer-title {
+  border: 1px solid black;
+}
+
+.email {
+  border: 1px solid black;
+}
+
+.social-media {
+  border: 1px solid black;
+}
+
+.footer-icon {
+  border: 1px solid black;
+}
