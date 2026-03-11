@@ -156,7 +156,7 @@ h2 {
   display: flex;
   gap: 20px; /* sepracion entre columnas*/
   margin: 0 auto; /* centrar columnas */
-  /*flex-wrap: wrap;  no se que hace*/
+  flex-wrap: wrap; /* permite que los elementos pasen a la siguiente fila cuando no hay espacio */
 }
 
 .content__project {
@@ -169,28 +169,28 @@ h2 {
 .content__project-image {
   background-size: cover; /* Tamañño de la imagen de fondo */
   background-position: center; /* posicion de la imagen de fondo */
-  height: 330px; /* alto de la imagen */
+  height: 330px; /* alto de la imagen de fondo */
 }
 
 .content__project-image_coffeeShop {
-  position: relative;
   background-image: url(./images/coffeeShop.png);
 }
 
 .content__project-image_myProject {
-  position: relative;
   background-image: url(./images/placeholder.png);
 }
 
 .project__image__icons {
-  position: absolute;
-  bottom: 10px;
+  height: inherit; /* hereda altura del cotenedor padre*/
+  display: flex;
+  align-items: last baseline; /* manda iconos al fondo*/
 }
 
 .project__image__icons img {
   width: 40px;
   height: 40px;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .project__card-desc {
