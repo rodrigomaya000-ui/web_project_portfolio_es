@@ -4,136 +4,157 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
-      <img
-        class="profile-picture"
-        src="./images/mariana.jpg"
-        alt="MarianaHernandez"
-      />
-      <div class="profile">
-        <h1 class="header-title">Mariana Hernández</h1>
-        <h4 class="header-subtitle">
-          Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
-        </h4>
-        <p class="bio">
-          Desarrolladora web junior con experiencia práctica creando interfaces
-          limpias y responsivas con HTML, CSS, JavaScript y React, así como
-          implementando lógica básica de back-end. Ha trabajado en proyectos
-          formativos que siguen procesos reales de desarrollo, usando Git,
-          GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
-          y resolver problemas de forma estructurada. Motivada por seguir
-          aprendiendo, asumir nuevos retos y aprovechar oportunidades para
-          crecer como desarrolladora.
-        </p>
-        <nav class="nav">
-          <a href="#">Descargar CV</a>
-          <a href="#">Enlace a GitHub</a>
-          <a href="#">Hablemos</a>
-        </nav>
-      </div>
-    </header>
-
-    <section class="skills">
-      <h2>Habilidades y herramientas</h2>
-      <div class="content__tools">
-        <img class="img_a" src="./images/html5.svg" alt="html5" />
-        <img class="img_a" src="./images/css.svg" alt="css" />
-        <img class="img_b" src="./images/js.svg" alt="javaScript" />
-        <img class="img_b" src="./images/git-logo.svg" alt="git" />
-        <img class="img_b" src="./images/github-logo.svg" alt="gitHub" />
-        <img class="img_b" src="./images/gpt-logo.svg" alt="chatGPT" />
-      </div>
-    </section>
-
-    <div class="projects">
-      <h2>Proyectos destacados</h2>
-      <section class="content_projects">
-        <!-- Coffee Project-->
-        <div class="content__project">
-          <div class="content__project-image content__project-image_coffeeShop">
-            <div class="project__image__icons">
-              <img src="./images/html5.svg" alt="html5" />
-              <img src="./images/css.svg" alt="css" />
-            </div>
-          </div>
-
-          <div class="project__card-desc">
-            <h3 class="card-title">Página web de una cafetería</h3>
-            <p class="card-text">
-              Desarrollo de una landing page responsiva para una cafetería
-              siguiendo un brief de diseño. Incluye estructura semántica,
-              maquetación con Flexbox, creación de secciones nuevas y un
-              formulario de contacto funcional. <br />Logro: Implementé desde
-              cero el diseño completo de la página, organicé el proyecto con
-              buenas prácticas y publiqué la versión final utilizando GitHub
-              Pages.
-            </p>
-            <div class="project__card-desc__links">
-              <a href="#" class="link-demo" target="_blank">
-                <img src="./images/external-link.svg" alt="external-link" />
-                Demo en vivo
-              </a>
-              <a href="#" class="link-github" target="_blank">
-                <img src="./images/github-icon.svg" alt="github" />
-                GitHub
-              </a>
-            </div>
-          </div>
+    <div class="page">
+      <header class="header">
+        <img
+          class="profile-picture"
+          src="./images/mariana.jpg"
+          alt="MarianaHernandez"
+        />
+        <div class="profile">
+          <h1 class="header-title">Mariana Hernández</h1>
+          <h4 class="header-subtitle">
+            Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
+          </h4>
+          <p class="bio">
+            Desarrolladora web junior con experiencia práctica creando
+            interfaces limpias y responsivas con HTML, CSS, JavaScript y React,
+            así como implementando lógica básica de back-end. Ha trabajado en
+            proyectos formativos que siguen procesos reales de desarrollo,
+            usando Git, GitHub y Figma. Disfruta colaborar en equipo, mantener
+            un código claro y resolver problemas de forma estructurada. Motivada
+            por seguir aprendiendo, asumir nuevos retos y aprovechar
+            oportunidades para crecer como desarrolladora.
+          </p>
+          <nav class="nav">
+            <a href="#">Descargar CV</a>
+            <a href="#">Enlace a GitHub</a>
+            <a href="#">Hablemos</a>
+          </nav>
         </div>
+      </header>
 
-        <!-- My Project-->
-        <div class="content__project">
-          <div class="content__project-image content__project-image_myProject">
-            <div class="project__image__icons">
-              <img src="./images/js.svg" alt="js" />
-              <img src="./images/react.svg" alt="react" />
-            </div>
-          </div>
-
-          <div class="project__card-desc">
-            <h3 class="card-title">Mi proyecto</h3>
-            <p class="card-text">Descripción del proyecto</p>
-            <div class="project__card-desc__links">
-              <a href="#" class="link-demo" target="_blank">
-                <img src="./images/external-link.svg" alt="external-link" />
-                Demo en vivo
-              </a>
-              <a href="#" class="link-github" target="_blank">
-                <img src="./images/github-icon.svg" alt="github" />
-                GitHub
-              </a>
-            </div>
-          </div>
+      <section class="skills">
+        <h2>Habilidades y herramientas</h2>
+        <div class="content__tools">
+          <img class="img_a" src="./images/logos/html5.svg" alt="html5" />
+          <img class="img_a" src="./images/logos/css.svg" alt="css" />
+          <img class="img_b" src="./images/logos/js.svg" alt="javaScript" />
+          <img class="img_b" src="./images/logos/git-logo.svg" alt="git" />
+          <img
+            class="img_b"
+            src="./images/logos/github-logo.svg"
+            alt="gitHub"
+          />
+          <img class="img_b" src="./images/logos/gpt-logo.svg" alt="chatGPT" />
         </div>
       </section>
-    </div>
 
-    <footer class="footer">
-      <div class="contact">
-        <h2 class="footer-title">Contacto</h2>
-        <p class="email">student@tripleten.com</p>
-        <div class="social-media">
-          <img
-            class="footer-icon"
-            src="./images/Social Icons/LinkedIn.svg"
-            alt="linkedin"
-          />
-          <img
-            class="footer-icon"
-            src="./images/Social Icons/facebook.svg"
-            alt="facebook"
-          />
-          <img
-            class="footer-icon"
-            src="./images/Social Icons/instagram.svg"
-            alt="instagram"
-          />
-          <img class="footer-icon" src="./images/Social Icons/x.svg" alt="x" />
-        </div>
+      <div class="projects">
+        <h2>Proyectos destacados</h2>
+        <section class="content_projects">
+          <!-- Coffee Project-->
+          <div class="content__project">
+            <div
+              class="content__project-image content__project-image_coffeeShop"
+            >
+              <div class="project__image__icons">
+                <img src="./images/logos/html5.svg" alt="html5" />
+                <img src="./images/logos/css.svg" alt="css" />
+              </div>
+            </div>
+
+            <div class="project__card-desc">
+              <h3 class="card-title">Página web de una cafetería</h3>
+              <p class="card-text">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional. <br />Logro: Implementé desde
+                cero el diseño completo de la página, organicé el proyecto con
+                buenas prácticas y publiqué la versión final utilizando GitHub
+                Pages.
+              </p>
+              <div class="project__card-desc__links">
+                <a href="#" class="link-demo" target="_blank">
+                  <img src="./images/external-link.svg" alt="external-link" />
+                  Demo en vivo
+                </a>
+                <a href="#" class="link-github" target="_blank">
+                  <img src="./images/github-icon.svg" alt="github" />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- My Project-->
+          <div class="content__project">
+            <div
+              class="content__project-image content__project-image_myProject"
+            >
+              <div class="project__image__icons">
+                <img src="./images/logos/js.svg" alt="js" />
+                <img src="./images/logos/react.svg" alt="react" />
+              </div>
+            </div>
+
+            <div class="project__card-desc">
+              <h3 class="card-title">Mi proyecto</h3>
+              <p class="card-text">Descripción del proyecto</p>
+              <div class="project__card-desc__links">
+                <a href="#" class="link-demo" target="_blank">
+                  <img src="./images/external-link.svg" alt="external-link" />
+                  Demo en vivo
+                </a>
+                <a href="#" class="link-github" target="_blank">
+                  <img src="./images/github-icon.svg" alt="github" />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </footer>
+
+      <footer class="footer">
+        <div class="contact">
+          <h2 class="footer-title">Contacto</h2>
+          <a href="mailto:student@tripleten.com" class="email"
+            >student@tripleten.com</a
+          >
+          <div class="social-media">
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                class="footer-icon"
+                src="./images/Social Icons/LinkedIn.svg"
+                alt="linkedin"
+              />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                class="footer-icon"
+                src="./images/Social Icons/facebook.svg"
+                alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                class="footer-icon"
+                src="./images/Social Icons/instagram.svg"
+                alt="instagram"
+            /></a>
+            <a href="https://www.x.com" target="_blank">
+              <img
+                class="footer-icon"
+                src="./images/Social Icons/x.svg"
+                alt="x"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
