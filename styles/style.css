@@ -306,7 +306,7 @@ h2 {
 /* ===========================
    TABLET - 768px
 =========================== */
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .header {
     padding: 40px;
   }
@@ -335,10 +335,14 @@ h2 {
 /* ===========================
    MÓVIL - 320px
 =========================== */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
+  h2 {
+    font-size: 28px;
+  }
+
   .header {
-    flex-direction: column-reverse; /* foto arriba, texto abajo */
-    padding: 10px;
+    flex-direction: column; /* foto arriba, texto abajo */
+    padding: 20px;
   }
 
   .header-title {
@@ -350,9 +354,16 @@ h2 {
   }
 
   .profile-picture {
+    margin: 0;
     height: 280px;
     width: 100%;
     object-fit: cover;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .skills,
@@ -369,5 +380,18 @@ h2 {
 
   .content__project {
     width: 100%;
+  }
+
+  .content__project-image {
+    height: 0;
+    padding-top: 56.25%; /* 9/16 = 0.5625 → ratio 16:9 */
+  }
+
+  .content__projects {
+    width: 100%;
+  }
+
+  .project__card-desc {
+    height: auto;
   }
 }
