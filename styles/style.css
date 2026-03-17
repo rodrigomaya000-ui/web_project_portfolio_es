@@ -63,7 +63,7 @@ h2 {
 }
 
 .profile {
-  width: 793px;
+  width: 80%; /*793px;*/
 }
 
 .header-title {
@@ -301,4 +301,73 @@ h2 {
 
 .social-media :hover {
   opacity: 0.5;
+}
+
+/* ===========================
+   TABLET - 768px
+=========================== */
+@media (max-width: 768px) {
+  .header {
+    padding: 40px;
+  }
+
+  .header-title {
+    font-size: 58px;
+  }
+
+  .profile-picture {
+    height: 280px;
+    width: 216px;
+    object-fit: cover;
+  }
+
+  .skills,
+  .projects,
+  .footer {
+    padding: 0 40px;
+  }
+
+  .content__project {
+    width: 100%;
+  }
+}
+
+/* ===========================
+   MÓVIL - 320px
+=========================== */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column-reverse; /* foto arriba, texto abajo */
+    padding: 10px;
+  }
+
+  .header-title {
+    font-size: 36px;
+  }
+
+  .header-subtitle {
+    font-size: 16px;
+  }
+
+  .profile-picture {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .skills,
+  .projects,
+  .footer {
+    padding: 0 20px;
+  }
+
+  .content__tools {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .content__project {
+    width: 100%;
+  }
 }
