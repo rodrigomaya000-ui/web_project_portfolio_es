@@ -1,15 +1,15 @@
 @font-face {
   font-family: "opensans";
   src:
-    url(./fonts/opensans-regular-webfont.woff) format("woff"),
-    url(./fonts/opensans-regular-webfont.woff2) format("woff2");
+    url(../fonts/opensans-regular-webfont.woff) format("woff"),
+    url(../fonts/opensans-regular-webfont.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "archivoblack";
   src:
-    url(./fonts/archivoblack.woff) format("woff"),
-    url(./fonts/archivoblack.woff2) format("woff2");
+    url(../fonts/archivoblack.woff) format("woff"),
+    url(../fonts/archivoblack.woff2) format("woff2");
 }
 /* ===========================
    RESET & BASE
