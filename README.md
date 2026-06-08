@@ -63,4 +63,4 @@ Desarrollador Web
 
 ## ⚠️ Nota
 
-Este proyecto forma parte de mi proceso de aprendizaje en desarrollo web y continuará evolucionando conforme adquiera nuevas habilidades.
+Este proyecto forma parte de mi proceso de aprendizaje en desarrollo web y continuará evolucionando conforme adquiera nuevas habilidades...
